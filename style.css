@@ -318,6 +318,10 @@
   
   .footer {
     background-color: var(--primary-color);
+    a {
+      color: var(--secondary-color);
+      text-decoration: none;
+    }
   }
   
   .footer__container {
