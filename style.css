@@ -1,10 +1,10 @@
 /* -------------------------------- Variables ------------------------------- */
 
 :root {
-    --primary-color: #0a1e27;
-    --secondary-color: #e9c675;
-    --text-light: #cbd5e1;
-    --white: #ffffff;
+    --primary-color: #f3f3f3;
+    --secondary-color: #004a3a;
+    --text-light: #333333;
+    --white: 333333;
     --max-width: 1200px;
     --header-font: "Playfair Display", serif;
   }
@@ -26,7 +26,7 @@
     isolation: isolate;
     margin-bottom: 1rem;
     padding-left: 5rem;
-    font-size: 0.9rem;
+    font-size: clamp(2rem, 2.3vw, 4rem);
     font-weight: 600;
     letter-spacing: 2px;
     color: var(--secondary-color);
@@ -48,7 +48,7 @@
     top: 50%;
     left: 0;
     transform: translate(-60%, -50%);
-    font-size: 8rem;
+    font-size: clamp(3rem, 2.3vw, 4rem);
     font-weight: 600;
     color: var(--white);
     opacity: 0.1;
@@ -101,6 +101,7 @@
   }
   
   a {
+    font-size: clamp(2rem, 2.3vw, 4rem);
     text-decoration: none;
     transition: 0.3s;
   }
@@ -112,6 +113,7 @@
   
   body {
     font-family: "Poppins", sans-serif;
+    font-size: clamp(2rem, 1vw, 3rem);
   }
   
   .header {
