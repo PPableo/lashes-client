@@ -48,7 +48,7 @@
     top: 50%;
     left: 0;
     transform: translate(-60%, -50%);
-    font-size: clamp(3rem, 2.3vw, 4rem);
+    font-size: 8rem;
     font-weight: 600;
     color: var(--white);
     opacity: 0.1;
