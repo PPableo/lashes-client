@@ -22,8 +22,6 @@ JH Lashes is a web page created for a lash artist as a portfolio, with a link to
 
 ## Installation
 
-Provide instructions on how to install your project. Include any prerequisites or dependencies that need to be installed beforehand.
-
-git clone 
+git clone
 cd repository
 npm install
